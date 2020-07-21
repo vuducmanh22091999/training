@@ -4,9 +4,9 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.widget.Toast
-import com.example.smalldemo.ACTION_PLUS_NUMBER
-import com.example.smalldemo.NUMBER_A
-import com.example.smalldemo.NUMBER_B
+import com.example.smalldemo.constant.ACTION_PLUS_NUMBER
+import com.example.smalldemo.constant.NUMBER_A
+import com.example.smalldemo.constant.NUMBER_B
 
 class MyBroadcast : BroadcastReceiver() {
     override fun onReceive(context: Context?, intent: Intent?) {

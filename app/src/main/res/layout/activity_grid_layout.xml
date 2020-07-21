@@ -1,0 +1,45 @@
+<GridLayout xmlns:android1="http://schemas.android.com/apk/res/android"
+    android1:layout_width="match_parent"
+    android1:layout_height="match_parent"
+    android1:columnCount="2"
+    android1:rowCount="2">
+
+    <TextView
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:background="@color/colorAccent"
+        android1:text="@string/send_message"
+        android1:textColor="#fff"
+        android1:textSize="20sp"
+        android1:textStyle="bold" />
+
+    <TextView
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:background="@color/colorPrimary"
+        android1:text="@string/received_message"
+        android1:textAlignment="center"
+        android1:textColor="#fff"
+        android1:textSize="20sp"
+        android1:textStyle="bold" />
+
+    <TextView
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:background="#8c0520"
+        android1:text="@string/add"
+        android1:textAlignment="center"
+        android1:textColor="#fff"
+        android1:textSize="20sp"
+        android1:textStyle="bold" />
+
+    <TextView
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:background="#efcd21"
+        android1:text="@string/textview_test"
+        android1:textAlignment="center"
+        android1:textColor="#fff"
+        android1:textSize="20sp"
+        android1:textStyle="bold" />
+</GridLayout>

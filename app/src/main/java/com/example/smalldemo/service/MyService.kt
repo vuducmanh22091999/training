@@ -25,7 +25,7 @@ class MyService : Service() {
         locationManager = getSystemService(Context.LOCATION_SERVICE) as LocationManager
         criteria = Criteria()
         criteria?.let {
-            it.accuracy = Criteria.ACCURACY_COARSE //default
+            it.accuracy = Criteria.ACCURACY_COARSE
             it.isCostAllowed = false
             locationManager?.let { manager ->
                 val location = manager.getLastKnownLocation(
