@@ -32,8 +32,8 @@ import java.util.*
 
 
 class MainActivity : AppCompatActivity() {
-    var mPhotoFile : File? = null
-    var mCompressor : FileCompressor?=null
+    var mPhotoFile: File? = null
+    var mCompressor: FileCompressor? = null
     var isCheckCamera = false
 
     lateinit var myBroadcast: MyBroadcast
@@ -191,7 +191,7 @@ class MainActivity : AppCompatActivity() {
                 Manifest.permission.CAMERA
             )
             .withListener(object : MultiplePermissionsListener {
-               override fun onPermissionsChecked(report: MultiplePermissionsReport) {
+                override fun onPermissionsChecked(report: MultiplePermissionsReport) {
                     // check if all permissions are granted
                     if (report.areAllPermissionsGranted()) {
                         if (isCamera) {
@@ -252,7 +252,6 @@ class MainActivity : AppCompatActivity() {
     @Throws(IOException::class)
     private fun createImageFile(): File? {
         // Create an image file name
-        val timeStamp: String = SimpleDateFormat("yyyyMMddHHmmss").format(Date())
         val mFileName = "JPEG_" + System.currentTimeMillis() + "_"
         val storageDir: File? = getExternalFilesDir(Environment.DIRECTORY_PICTURES)
         return File.createTempFile(mFileName, ".jpg", storageDir)
@@ -328,7 +327,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun getRealPathFromUri(contentUri: Uri?): String? {
+    private fun getRealPathFromUri(contentUri: Uri?): String? {
         var cursor: Cursor? = null
         return try {
             val proj =
@@ -342,10 +341,5 @@ class MainActivity : AppCompatActivity() {
             cursor?.close()
         }
     }
-
-    ///data/user/0/com.example.smalldemo/cache/images/JPEG_20200720205507_4419125400939245771.jpg
-    ///data/user/0/com.example.smalldemo/cache/images/JPEG_20200720205507_4419125400939245771.jpg
-    ///data/user/0/com.example.smalldemo/cache/images/JPEG_1595253551504_4144155440894192712.jpg
-    ///data/user/0/com.example.smalldemo/cache/images/JPEG_1595253551504_4144155440894192712.jpg
 }
 

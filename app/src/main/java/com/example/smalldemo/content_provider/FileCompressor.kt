@@ -21,7 +21,7 @@ class FileCompressor(context: Context?) {
     init {
         if (context != null) {
             destinationDirectoryPath =
-                context.getCacheDir().getPath() + File.separator.toString() + "images"
+                context.cacheDir.path + File.separator.toString() + "images"
         }
     }
 
@@ -53,7 +53,7 @@ class FileCompressor(context: Context?) {
     @Throws(IOException::class)
     fun compressToFile(imageFile: File?): File? {
         if (imageFile != null) {
-            return compressToFile(imageFile, imageFile.getName())
+            return compressToFile(imageFile, imageFile.name)
         }
         return null
     }
