@@ -8,7 +8,6 @@ import android.os.Bundle
 import android.provider.MediaStore
 import androidx.appcompat.app.AppCompatActivity
 import com.example.smalldemo.R
-import com.example.smalldemo.RESULT_LOAD_IMAGE
 import com.example.smalldemo.adapter.ShowImageAdapter
 import com.example.smalldemo.constant.PERMISSION_CODE_READ
 import com.example.smalldemo.constant.PERMISSION_CODE_WRITE
@@ -25,7 +24,6 @@ class ShowImageActivity : AppCompatActivity() {
 
         initAdapter()
         checkPermissionForImage()
-//        Glide.with(this).load("/storage/emulated/0/DCIM/Camera/IMG_20200720_205301_168.jpg").into(test)
     }
 
     private fun initAdapter() {
