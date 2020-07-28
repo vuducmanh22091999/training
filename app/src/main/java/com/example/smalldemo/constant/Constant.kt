@@ -24,4 +24,6 @@ fun static() {
 
 const val REQUEST_TAKE_PHOTO = 100
 const val REQUEST_GALLERY_PHOTO = 101
+const val PERMISSION_CODE_READ = 1001
+const val PERMISSION_CODE_WRITE = 1000
 
