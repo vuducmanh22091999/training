@@ -19,4 +19,11 @@
     <string name="relative_layout">Relative Layout</string>
     <string name="content_provider">Content Provider</string>
     <string name="show">Show</string>
+    <string name="fragment">Fragment</string>
+    <string name="first_fragment">First Fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="add_first_fragment">Add First Fragment</string>
+    <string name="add_second_fragment">Add Second Fragment</string>
+    <string name="send_data">Send Data</string>
+    <string name="event_handling">Event Handling</string>
 </resources>

@@ -91,6 +91,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intentShowImage)
         }
 
+        tvFragment.setOnClickListener {
+            val intentFragment = Intent(this, DemoFragmentActivity::class.java)
+            startActivity(intentFragment)
+        }
+
     }
 
     @RequiresApi(Build.VERSION_CODES.M)

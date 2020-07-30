@@ -25,6 +25,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui_layout.DemoFragmentActivity"></activity>
         <activity android:name=".content_provider.ShowImageActivity" />
         <activity android:name=".ui_layout.TableLayoutActivity" />
         <activity android:name=".ui_layout.GridLayoutActivity" />
