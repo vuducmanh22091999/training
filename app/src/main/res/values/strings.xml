@@ -26,4 +26,9 @@
     <string name="add_second_fragment">Add Second Fragment</string>
     <string name="send_data">Send Data</string>
     <string name="event_handling">Event Handling</string>
+    <string name="up_size">Up Size</string>
+    <string name="down_size">Down Size</string>
+    <string name="test_size">Test Size</string>
+    <string name="long_click">Long Click</string>
+    <string name="on_touch">On Touch</string>
 </resources>

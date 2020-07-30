@@ -14,6 +14,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import com.example.smalldemo.broadcast.MyBroadcast
 import com.example.smalldemo.content_provider.ShowImageActivity
+import com.example.smalldemo.event.EventHandlingActivity
 import com.example.smalldemo.service.MyService
 import com.example.smalldemo.ui_layout.*
 import kotlinx.android.synthetic.main.activity_main.*
@@ -94,6 +95,11 @@ class MainActivity : AppCompatActivity() {
         tvFragment.setOnClickListener {
             val intentFragment = Intent(this, DemoFragmentActivity::class.java)
             startActivity(intentFragment)
+        }
+
+        tvEventHandling.setOnClickListener {
+            val intentEventHandling = Intent(this, EventHandlingActivity::class.java)
+            startActivity(intentEventHandling)
         }
 
     }
