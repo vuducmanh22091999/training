@@ -31,4 +31,10 @@
     <string name="test_size">Test Size</string>
     <string name="long_click">Long Click</string>
     <string name="on_touch">On Touch</string>
+    <string name="notification">Notification</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="send_notification">Send Notification</string>
+    <string name="received_title">Received Title</string>
+    <string name="received_content">Received Content</string>
 </resources>

@@ -25,7 +25,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".event.EventHandlingActivity"></activity>
+        <activity android:name=".notification.ReceivedNotificationActivity"></activity>
+        <activity android:name=".notification.NotificationActivity" />
+        <activity android:name=".event.EventHandlingActivity" />
         <activity android:name=".ui_layout.DemoFragmentActivity" />
         <activity android:name=".content_provider.ShowImageActivity" />
         <activity android:name=".ui_layout.TableLayoutActivity" />

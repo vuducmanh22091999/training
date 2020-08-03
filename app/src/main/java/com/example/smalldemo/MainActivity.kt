@@ -15,6 +15,7 @@ import androidx.core.app.ActivityCompat
 import com.example.smalldemo.broadcast.MyBroadcast
 import com.example.smalldemo.content_provider.ShowImageActivity
 import com.example.smalldemo.event.EventHandlingActivity
+import com.example.smalldemo.notification.NotificationActivity
 import com.example.smalldemo.service.MyService
 import com.example.smalldemo.ui_layout.*
 import kotlinx.android.synthetic.main.activity_main.*
@@ -57,40 +58,40 @@ class MainActivity : AppCompatActivity() {
 //            sendDataToBroadcast()
 //        }
 
-        tvConstraintLayout.setOnClickListener {
-            val intentConstraintLayout = Intent(this, ConstraintLayoutActivity::class.java)
-            startActivity(intentConstraintLayout)
-        }
-
-        tvLinearLayout.setOnClickListener {
-            val intentLinearLayout = Intent(this, LinearLayoutActivity::class.java)
-            startActivity(intentLinearLayout)
-        }
-
-        tvFrameLayout.setOnClickListener {
-            val intentFrameLayout = Intent(this, FrameLayoutActivity::class.java)
-            startActivity(intentFrameLayout)
-        }
-
-        tvRelativeLayout.setOnClickListener {
-            val intentRelativeLayout = Intent(this, RelativeLayoutActivity::class.java)
-            startActivity(intentRelativeLayout)
-        }
-
-        tvTableLayout.setOnClickListener {
-            val intentTableLayout = Intent(this, TableLayoutActivity::class.java)
-            startActivity(intentTableLayout)
-        }
-
-        tvGridLayout.setOnClickListener {
-            val intentGridLayout = Intent(this, GridLayoutActivity::class.java)
-            startActivity(intentGridLayout)
-        }
-
-        tvContentProvider.setOnClickListener {
-            val intentShowImage = Intent(this, ShowImageActivity::class.java)
-            startActivity(intentShowImage)
-        }
+//        tvConstraintLayout.setOnClickListener {
+//            val intentConstraintLayout = Intent(this, ConstraintLayoutActivity::class.java)
+//            startActivity(intentConstraintLayout)
+//        }
+//
+//        tvLinearLayout.setOnClickListener {
+//            val intentLinearLayout = Intent(this, LinearLayoutActivity::class.java)
+//            startActivity(intentLinearLayout)
+//        }
+//
+//        tvFrameLayout.setOnClickListener {
+//            val intentFrameLayout = Intent(this, FrameLayoutActivity::class.java)
+//            startActivity(intentFrameLayout)
+//        }
+//
+//        tvRelativeLayout.setOnClickListener {
+//            val intentRelativeLayout = Intent(this, RelativeLayoutActivity::class.java)
+//            startActivity(intentRelativeLayout)
+//        }
+//
+//        tvTableLayout.setOnClickListener {
+//            val intentTableLayout = Intent(this, TableLayoutActivity::class.java)
+//            startActivity(intentTableLayout)
+//        }
+//
+//        tvGridLayout.setOnClickListener {
+//            val intentGridLayout = Intent(this, GridLayoutActivity::class.java)
+//            startActivity(intentGridLayout)
+//        }
+//
+//        tvContentProvider.setOnClickListener {
+//            val intentShowImage = Intent(this, ShowImageActivity::class.java)
+//            startActivity(intentShowImage)
+//        }
 
         tvFragment.setOnClickListener {
             val intentFragment = Intent(this, DemoFragmentActivity::class.java)
@@ -102,6 +103,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intentEventHandling)
         }
 
+        tvNotification.setOnClickListener {
+            val intentNotification = Intent(this, NotificationActivity::class.java)
+            startActivity(intentNotification)
+        }
     }
 
     @RequiresApi(Build.VERSION_CODES.M)

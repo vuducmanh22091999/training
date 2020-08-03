@@ -81,88 +81,89 @@
 <!--        app:layout_constraintStart_toStartOf="parent"-->
 <!--        app:layout_constraintEnd_toEndOf="parent"/>-->
 
-    <TextView
-        android:id="@+id/tvConstraintLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="@string/constraint_layout"
-        android:textSize="30sp"
-        android:textColor="@android:color/black"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+<!--    <TextView-->
+<!--        android:id="@+id/tvTableLayout"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="8dp"-->
+<!--        android:text="@string/table_layout"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textSize="30sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tvLinearLayout" />-->
 
-    <TextView
-        android:id="@+id/tvRelativeLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="@string/relative_layout"
-        android:textSize="30sp"
-        android:textColor="@android:color/black"
-        app:layout_constraintTop_toBottomOf="@id/tvConstraintLayout"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+<!--    <TextView-->
+<!--        android:id="@+id/tvConstraintLayout"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="8dp"-->
+<!--        android:text="@string/constraint_layout"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textSize="30sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
 
-    <TextView
-        android:id="@+id/tvFrameLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="@string/frame_layout"
-        android:textSize="30sp"
-        android:textColor="@android:color/black"
-        app:layout_constraintTop_toBottomOf="@id/tvRelativeLayout"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+<!--    <TextView-->
+<!--        android:id="@+id/tvRelativeLayout"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="8dp"-->
+<!--        android:text="@string/relative_layout"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textSize="30sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.505"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tvConstraintLayout" />-->
 
-    <TextView
-        android:id="@+id/tvLinearLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="@string/linear_layout"
-        android:textSize="30sp"
-        android:textColor="@android:color/black"
-        app:layout_constraintTop_toBottomOf="@id/tvFrameLayout"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+<!--    <TextView-->
+<!--        android:id="@+id/tvFrameLayout"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="8dp"-->
+<!--        android:text="@string/frame_layout"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textSize="30sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tvRelativeLayout" />-->
 
-    <TextView
-        android:id="@+id/tvTableLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="@string/table_layout"
-        android:textSize="30sp"
-        android:textColor="@android:color/black"
-        app:layout_constraintTop_toBottomOf="@id/tvLinearLayout"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+<!--    <TextView-->
+<!--        android:id="@+id/tvLinearLayout"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="8dp"-->
+<!--        android:text="@string/linear_layout"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textSize="30sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tvFrameLayout" />-->
 
-    <TextView
-        android:id="@+id/tvGridLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="@string/grid_layout"
-        android:textSize="30sp"
-        android:textColor="@android:color/black"
-        app:layout_constraintTop_toBottomOf="@id/tvTableLayout"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+<!--    <TextView-->
+<!--        android:id="@+id/tvGridLayout"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="8dp"-->
+<!--        android:text="@string/grid_layout"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tvTableLayout"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
 
-    <TextView
-        android:id="@+id/tvContentProvider"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/content_provider"
-        android:textSize="30sp"
-        android:textColor="@android:color/black"
-        app:layout_constraintTop_toBottomOf="@id/tvGridLayout"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+<!--    <TextView-->
+<!--        android:id="@+id/tvContentProvider"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/content_provider"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tvGridLayout"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
 
     <TextView
         android:id="@+id/tvFragment"
@@ -174,7 +175,7 @@
         android:textColor="@android:color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvContentProvider"/>
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:id="@+id/tvEventHandling"
@@ -187,5 +188,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvFragment"/>
+
+    <TextView
+        android:id="@+id/tvNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/notification"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvEventHandling"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
