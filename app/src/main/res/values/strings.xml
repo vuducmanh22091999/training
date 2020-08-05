@@ -37,4 +37,7 @@
     <string name="send_notification">Send Notification</string>
     <string name="received_title">Received Title</string>
     <string name="received_content">Received Content</string>
+    <string name="shared_preferences">Shared Preferences</string>
+    <string name="save_data">Save Data</string>
+    <string name="read_data">Read Data</string>
 </resources>

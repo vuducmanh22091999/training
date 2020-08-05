@@ -17,6 +17,7 @@ import com.example.smalldemo.content_provider.ShowImageActivity
 import com.example.smalldemo.event.EventHandlingActivity
 import com.example.smalldemo.notification.NotificationActivity
 import com.example.smalldemo.service.MyService
+import com.example.smalldemo.shared_preferences.SharedPreferencesActivity
 import com.example.smalldemo.ui_layout.*
 import kotlinx.android.synthetic.main.activity_main.*
 import java.io.File
@@ -106,6 +107,11 @@ class MainActivity : AppCompatActivity() {
         tvNotification.setOnClickListener {
             val intentNotification = Intent(this, NotificationActivity::class.java)
             startActivity(intentNotification)
+        }
+
+        tvSharedPreferences.setOnClickListener {
+            val intentSharedPreferences = Intent(this, SharedPreferencesActivity::class.java)
+            startActivity(intentSharedPreferences)
         }
     }
 
