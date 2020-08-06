@@ -6,164 +6,164 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--    <EditText-->
-<!--        android:id="@+id/actMain_etText"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:hint="@string/insert_here"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
+    <!--    <EditText-->
+    <!--        android:id="@+id/actMain_etText"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="@string/insert_here"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"/>-->
 
-<!--    <TextView-->
-<!--        android:id="@+id/actMain_tvSendMessage"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:padding="8dp"-->
-<!--        android:text="@string/send_message"-->
-<!--        android:textColor="@android:color/black"-->
-<!--        android:textSize="26sp"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/actMain_etText"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/actMain_tvSendMessage"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="8dp"-->
+    <!--        android:text="@string/send_message"-->
+    <!--        android:textColor="@android:color/black"-->
+    <!--        android:textSize="26sp"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/actMain_etText"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"/>-->
 
-<!--    <TextView-->
-<!--        android:id="@+id/actMain_tvStarService"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:padding="8dp"-->
-<!--        android:text="@string/start_service"-->
-<!--        android:textSize="26sp"-->
-<!--        android:textColor="@android:color/black"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/actMain_tvSendMessage"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/actMain_tvStarService"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="8dp"-->
+    <!--        android:text="@string/start_service"-->
+    <!--        android:textSize="26sp"-->
+    <!--        android:textColor="@android:color/black"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/actMain_tvSendMessage"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"/>-->
 
-<!--    <TextView-->
-<!--        android:id="@+id/actMain_tvStopService"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:padding="8dp"-->
-<!--        android:text="@string/stop_service"-->
-<!--        android:textSize="26sp"-->
-<!--        android:textColor="@android:color/black"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/actMain_tvStarService"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/actMain_tvStopService"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="8dp"-->
+    <!--        android:text="@string/stop_service"-->
+    <!--        android:textSize="26sp"-->
+    <!--        android:textColor="@android:color/black"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/actMain_tvStarService"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"/>-->
 
-<!--    <EditText-->
-<!--        android:id="@+id/actMain_etNumberA"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:hint="@string/insert_here"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/actMain_tvStopService"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
+    <!--    <EditText-->
+    <!--        android:id="@+id/actMain_etNumberA"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="@string/insert_here"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/actMain_tvStopService"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"/>-->
 
-<!--    <EditText-->
-<!--        android:id="@+id/actMain_etNumberB"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:hint="@string/insert_here"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/actMain_etNumberA"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
+    <!--    <EditText-->
+    <!--        android:id="@+id/actMain_etNumberB"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="@string/insert_here"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/actMain_etNumberA"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"/>-->
 
-<!--    <TextView-->
-<!--        android:id="@+id/actMain_tvAdd"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:padding="8dp"-->
-<!--        android:text="@string/add"-->
-<!--        android:textSize="26sp"-->
-<!--        android:textColor="@android:color/black"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/actMain_etNumberB"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/actMain_tvAdd"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="8dp"-->
+    <!--        android:text="@string/add"-->
+    <!--        android:textSize="26sp"-->
+    <!--        android:textColor="@android:color/black"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/actMain_etNumberB"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"/>-->
 
-<!--    <TextView-->
-<!--        android:id="@+id/tvTableLayout"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:padding="8dp"-->
-<!--        android:text="@string/table_layout"-->
-<!--        android:textColor="@android:color/black"-->
-<!--        android:textSize="30sp"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/tvLinearLayout" />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/tvTableLayout"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="8dp"-->
+    <!--        android:text="@string/table_layout"-->
+    <!--        android:textColor="@android:color/black"-->
+    <!--        android:textSize="30sp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/tvLinearLayout" />-->
 
-<!--    <TextView-->
-<!--        android:id="@+id/tvConstraintLayout"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:padding="8dp"-->
-<!--        android:text="@string/constraint_layout"-->
-<!--        android:textColor="@android:color/black"-->
-<!--        android:textSize="30sp"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/tvConstraintLayout"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="8dp"-->
+    <!--        android:text="@string/constraint_layout"-->
+    <!--        android:textColor="@android:color/black"-->
+    <!--        android:textSize="30sp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
-<!--    <TextView-->
-<!--        android:id="@+id/tvRelativeLayout"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:padding="8dp"-->
-<!--        android:text="@string/relative_layout"-->
-<!--        android:textColor="@android:color/black"-->
-<!--        android:textSize="30sp"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.505"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/tvConstraintLayout" />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/tvRelativeLayout"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="8dp"-->
+    <!--        android:text="@string/relative_layout"-->
+    <!--        android:textColor="@android:color/black"-->
+    <!--        android:textSize="30sp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.505"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/tvConstraintLayout" />-->
 
-<!--    <TextView-->
-<!--        android:id="@+id/tvFrameLayout"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:padding="8dp"-->
-<!--        android:text="@string/frame_layout"-->
-<!--        android:textColor="@android:color/black"-->
-<!--        android:textSize="30sp"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/tvRelativeLayout" />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/tvFrameLayout"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="8dp"-->
+    <!--        android:text="@string/frame_layout"-->
+    <!--        android:textColor="@android:color/black"-->
+    <!--        android:textSize="30sp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/tvRelativeLayout" />-->
 
-<!--    <TextView-->
-<!--        android:id="@+id/tvLinearLayout"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:padding="8dp"-->
-<!--        android:text="@string/linear_layout"-->
-<!--        android:textColor="@android:color/black"-->
-<!--        android:textSize="30sp"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/tvFrameLayout" />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/tvLinearLayout"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="8dp"-->
+    <!--        android:text="@string/linear_layout"-->
+    <!--        android:textColor="@android:color/black"-->
+    <!--        android:textSize="30sp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/tvFrameLayout" />-->
 
-<!--    <TextView-->
-<!--        android:id="@+id/tvGridLayout"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:padding="8dp"-->
-<!--        android:text="@string/grid_layout"-->
-<!--        android:textSize="30sp"-->
-<!--        android:textColor="@android:color/black"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/tvTableLayout"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/tvGridLayout"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="8dp"-->
+    <!--        android:text="@string/grid_layout"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:textColor="@android:color/black"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/tvTableLayout"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"/>-->
 
-<!--    <TextView-->
-<!--        android:id="@+id/tvContentProvider"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/content_provider"-->
-<!--        android:textSize="30sp"-->
-<!--        android:textColor="@android:color/black"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/tvGridLayout"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/tvContentProvider"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/content_provider"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:textColor="@android:color/black"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/tvGridLayout"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"/>-->
 
     <TextView
         android:id="@+id/tvFragment"
@@ -171,11 +171,11 @@
         android:layout_height="wrap_content"
         android:padding="8dp"
         android:text="@string/fragment"
-        android:textSize="30sp"
         android:textColor="@android:color/black"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tvEventHandling"
@@ -183,11 +183,11 @@
         android:layout_height="wrap_content"
         android:padding="8dp"
         android:text="@string/event_handling"
-        android:textSize="30sp"
         android:textColor="@android:color/black"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvFragment"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvFragment" />
 
     <TextView
         android:id="@+id/tvNotification"
@@ -195,22 +195,34 @@
         android:layout_height="wrap_content"
         android:padding="8dp"
         android:text="@string/notification"
-        android:textSize="30sp"
         android:textColor="@android:color/black"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvEventHandling"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvEventHandling" />
 
     <TextView
         android:id="@+id/tvSharedPreferences"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="8dp"
         android:text="@string/shared_preferences"
         android:textColor="@android:color/black"
         android:textSize="30sp"
-        android:padding="8dp"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvNotification"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNotification" />
+
+    <TextView
+        android:id="@+id/tvDemoSendData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/demo_send_data"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSharedPreferences" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

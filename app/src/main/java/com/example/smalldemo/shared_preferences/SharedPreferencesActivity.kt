@@ -16,6 +16,7 @@ class SharedPreferencesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_shared_preferences)
+        sharedPreferences = getSharedPreferences("data", Context.MODE_PRIVATE)
 
         initListener()
     }
@@ -31,7 +32,6 @@ class SharedPreferencesActivity : AppCompatActivity() {
     }
 
     private fun addData() {
-        sharedPreferences = getSharedPreferences("data", Context.MODE_PRIVATE)
         editor = sharedPreferences.edit()
         editor.putString("name", "Vu Duc Manh")
         editor.putInt("age", 21)
@@ -43,7 +43,6 @@ class SharedPreferencesActivity : AppCompatActivity() {
 
     @SuppressLint("SetTextI18n")
     private fun readData() {
-        sharedPreferences = getSharedPreferences("data", Context.MODE_PRIVATE)
         val name = sharedPreferences.getString("name", "")
         val age = sharedPreferences.getInt("age", 0)
         val weight = sharedPreferences.getLong("weight", 0)

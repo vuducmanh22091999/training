@@ -40,4 +40,9 @@
     <string name="shared_preferences">Shared Preferences</string>
     <string name="save_data">Save Data</string>
     <string name="read_data">Read Data</string>
+    <string name="demo_send_data">Demo Send Data</string>
+    <string name="start_activity_without_destroy">Start Activity Without Destroy</string>
+    <string name="start_activity_destroy">Start Activity Destroy</string>
+    <string name="tab_first">Tab First</string>
+    <string name="tab_second">Tab Second</string>
 </resources>

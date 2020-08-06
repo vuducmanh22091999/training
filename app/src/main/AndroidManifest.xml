@@ -25,7 +25,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".shared_preferences.SharedPreferencesActivity"></activity>
+        <activity android:name=".demo_send_data.SecondActivity"></activity>
+        <activity android:name=".demo_send_data.FirstActivity" />
+        <activity android:name=".shared_preferences.SharedPreferencesActivity" />
         <activity android:name=".notification.ReceivedNotificationActivity" />
         <activity android:name=".notification.NotificationActivity" />
         <activity android:name=".event.EventHandlingActivity" />

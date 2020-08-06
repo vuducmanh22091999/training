@@ -14,6 +14,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import com.example.smalldemo.broadcast.MyBroadcast
 import com.example.smalldemo.content_provider.ShowImageActivity
+import com.example.smalldemo.demo_send_data.FirstActivity
 import com.example.smalldemo.event.EventHandlingActivity
 import com.example.smalldemo.notification.NotificationActivity
 import com.example.smalldemo.service.MyService
@@ -112,6 +113,11 @@ class MainActivity : AppCompatActivity() {
         tvSharedPreferences.setOnClickListener {
             val intentSharedPreferences = Intent(this, SharedPreferencesActivity::class.java)
             startActivity(intentSharedPreferences)
+        }
+
+        tvDemoSendData.setOnClickListener {
+            val intentDemoSendData = Intent(this, FirstActivity::class.java)
+            startActivity(intentDemoSendData)
         }
     }
 
