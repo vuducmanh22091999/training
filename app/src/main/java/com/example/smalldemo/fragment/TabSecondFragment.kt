@@ -3,6 +3,7 @@ package com.example.smalldemo.fragment
 import android.content.Intent
 import com.example.smalldemo.R
 import com.example.smalldemo.base.BaseFragment
+import com.example.smalldemo.demo_send_data.FirstActivity
 import com.example.smalldemo.demo_send_data.SecondActivity
 import kotlinx.android.synthetic.main.fragment_tab2.*
 
@@ -25,12 +26,14 @@ class TabSecondFragment : BaseFragment() {
         btnStartActivityDestroy.setOnClickListener {
             val intentActivityDestroy = Intent(context, SecondActivity::class.java)
             startActivity(intentActivityDestroy)
+            activity?.finish()
         }
     }
 
     private fun getDataToTabFirst() {
-        val bundle = arguments
-        tvFirstReceivedData.text = bundle?.getString("data").toString()
+        if (activity is FirstActivity) {
+            tvFirstReceivedData.text = (activity as FirstActivity).getData()
+        }
     }
 
 }

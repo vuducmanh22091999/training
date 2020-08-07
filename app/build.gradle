@@ -37,4 +37,6 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
     implementation "io.reactivex.rxjava2:rxjava:$rootProject.rxjava2Version"
     implementation "io.reactivex.rxjava2:rxandroid:$rootProject.rxandroidVersion"
+    implementation  "android.arch.persistence.room:runtime:1.1.1"
+    annotationProcessor  "android.arch.persistence.room:compiler:1.1.1"
 }

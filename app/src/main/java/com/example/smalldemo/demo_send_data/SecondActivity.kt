@@ -18,6 +18,7 @@ class SecondActivity : AppCompatActivity() {
     private fun initListener() {
         btnSendDataTab2.setOnClickListener {
             viewPager.currentItem = 1
+            finish()
         }
     }
 }
