@@ -10,7 +10,7 @@ import com.example.smalldemo.fragment.TabSecondFragment
 import kotlinx.android.synthetic.main.activity_first.*
 
 class FirstActivity : AppCompatActivity() {
-    var dataSend  = "abc"
+    private var dataSend  = "abc"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,4 +31,12 @@ class FirstActivity : AppCompatActivity() {
     }
 
     fun getData() = dataSend
+
+    fun getDataToTabSecond() {
+        val intent = intent
+        val data = intent.extras?.getString("data")
+        if (data != null) {
+            dataSend = data
+        }
+    }
 }

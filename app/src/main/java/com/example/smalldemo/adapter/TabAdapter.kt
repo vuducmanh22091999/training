@@ -10,10 +10,12 @@ class TabAdapter(fragmentManager: FragmentManager) : FragmentStatePagerAdapter(f
     private val listTab = arrayOf("Tab First", "Tab Second")
 
     override fun getItem(position: Int): Fragment {
-        return if (position == 0) {
-            TabFirstFragment()
-        } else
-            TabSecondFragment()
+        return when (listTab[position]) {
+//            "Tab First" -> TabFirstFragment.newInstance()
+//            else -> TabSecondFragment.newInstance()
+            "Tab First" -> TabFirstFragment()
+            else -> TabSecondFragment()
+        }
     }
 
     override fun getCount(): Int {

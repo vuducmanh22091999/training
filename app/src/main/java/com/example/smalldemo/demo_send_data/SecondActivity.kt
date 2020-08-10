@@ -1,5 +1,6 @@
 package com.example.smalldemo.demo_send_data
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.smalldemo.R
