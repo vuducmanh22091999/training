@@ -31,12 +31,4 @@ class FirstActivity : AppCompatActivity() {
     }
 
     fun getData() = dataSend
-
-    fun getDataToTabSecond() {
-        val intent = intent
-        val data = intent.extras?.getString("data")
-        if (data != null) {
-            dataSend = data
-        }
-    }
 }
