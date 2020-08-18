@@ -20,6 +20,7 @@ import com.example.smalldemo.notification.NotificationActivity
 import com.example.smalldemo.service.MyService
 import com.example.smalldemo.shared_preferences.SharedPreferencesActivity
 import com.example.smalldemo.ui_layout.*
+import com.example.smalldemo.viewmodel.DemoViewModelActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import java.io.File
 
@@ -118,6 +119,11 @@ class MainActivity : AppCompatActivity() {
         tvDemoSendData.setOnClickListener {
             val intentDemoSendData = Intent(this, FirstActivity::class.java)
             startActivity(intentDemoSendData)
+        }
+
+        tvDemoViewModel.setOnClickListener {
+            val intentDemoViewModel = Intent(this, DemoViewModelActivity::class.java)
+            startActivity(intentDemoViewModel)
         }
     }
 

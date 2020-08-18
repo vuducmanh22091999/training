@@ -2,15 +2,8 @@ package com.example.smalldemo.fragment
 
 import android.app.Activity.RESULT_OK
 import android.content.Intent
-import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import androidx.room.Room
 import com.example.smalldemo.R
 import com.example.smalldemo.base.BaseFragment
-import com.example.smalldemo.database.DataRoom
-import com.example.smalldemo.database.MyRoomDatabase
 import com.example.smalldemo.demo_send_data.FirstActivity
 import com.example.smalldemo.demo_send_data.SecondActivity
 import kotlinx.android.synthetic.main.fragment_tab2.*
@@ -48,7 +41,7 @@ class TabSecondFragment : BaseFragment() {
             if (resultCode == RESULT_OK) {
                 val test = data?.getStringExtra("data")
                 tvSecondReceivedData.text = test
-                getDataToTabSecond()
+                getDataToSecondActivity()
             }
         }
     }
@@ -59,7 +52,7 @@ class TabSecondFragment : BaseFragment() {
         }
     }
 
-    private fun getDataToTabSecond() {
+    private fun getDataToSecondActivity() {
         initMyRoomDatabase()?.let {
             val listDataRoom = it.getDAOData()?.getData()
             tvFirstReceivedData.text = listDataRoom?.get(0)?.dataSend ?: ""
@@ -79,7 +72,6 @@ class TabSecondFragment : BaseFragment() {
         super.setUserVisibleHint(isVisibleToUser)
         if (isVisibleToUser && isResumed) {
             getDataToTabFirst()
-//            getDataToTabSecond()
         }
     }
 

@@ -45,4 +45,8 @@
     <string name="start_activity_destroy">Start Activity Destroy</string>
     <string name="tab_first">Tab First</string>
     <string name="tab_second">Tab Second</string>
+    <string name="demo_view_model">Demo ViewModel</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="count_number">0</string>
 </resources>
